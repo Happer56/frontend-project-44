@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Happer56/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Happer56/frontend-project-44/actions)",
   "main": "index.js",
-   "bin": {
-  "brain-games": "bin/brain-games.js"
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+     "lint": "eslint ."
   },
-  
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/Happer56/frontend-project-44.git"
   },
   "author": "",
@@ -19,6 +19,15 @@
   "bugs": {
     "url": "https://github.com/Happer56/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Happer56/frontend-project-44#readme"
-
+  "type": "module",
+  "homepage": "https://github.com/Happer56/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0"
+  }
 }
