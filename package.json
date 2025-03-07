@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Happer56/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Happer56/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js "
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "lint": "eslint ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
