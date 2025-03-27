@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/84e7e5cde54c6011121c/maintainability)](https://codeclimate.com/github/Happer56/frontend-project-44/maintainability)
 
 demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx/n
+demo calc game - https://asciinema.org/a/dUoKaHZf825BVXGjU1fCOp6BV
