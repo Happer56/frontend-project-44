@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import beginGame from '../src/index.js'
 import gameGcd from '../games/gcd.js';
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env node
-import beginGame from '../src/index.js'
 import random from "../randomNum.js";
-
-
-
 
 const progres = (start, step) => {
     const masProg = [];
@@ -23,6 +19,6 @@ const gameProgres = () => {
   const correctAnswer = `${num1}`;
   return [question, correctAnswer];
 };
-const rules = "Find the greatest common divisor of given numbers.";
-const startProgres = () => beginGame(rules, gameProgres);
-export default startProgres;
+export default gameProgres
+
+

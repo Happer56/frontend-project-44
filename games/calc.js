@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import random from "../randomNum.js";
 
 const calc = (num1, oper, num2) => {
