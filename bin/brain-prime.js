@@ -1,3 +1,4 @@
+#!/usr/bin/env node  
 import beginGame from '../src/index.js'
 import gamePrime from '../games/prime.js';
 
