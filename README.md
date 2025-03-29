@@ -7,3 +7,5 @@ demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx
 demo calc game - https://asciinema.org/a/dUoKaHZf825BVXGjU1fCOp6BV
 
 demo gcd game - https://asciinema.org/a/R3rNRZV2DAcjwpwcYs7xhjH2I
+
+demo progression game - https://asciinema.org/a/ZDfVrsO7pXAg2qcfUVb7xS09h
