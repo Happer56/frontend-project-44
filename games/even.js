@@ -1,10 +1,7 @@
 import random from "../randomNum.js";
 
-
-
-
+const even = (num) => num % 2 === 0;
 const gameEven = () => {
-  const even = (num) => num % 2 === 0;
   const question = random();
   const correctAnswer = even(question) ? "yes" : "no";
   return [question, correctAnswer];
