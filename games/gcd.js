@@ -1,12 +1,7 @@
 #!/usr/bin/env node
 import random from "../randomNum.js";
 
-const gcd = (a, b) => {
-  if (b === 0) {
-    return a;
-  }
-  return gcd(b, a % b);
-};
+const gcd = (a, b) => ((a % b) ? gcd(b, a % b) : Math.abs(b));
 
 const gameGcd = () => {
   const num1 = random(0, 100);
