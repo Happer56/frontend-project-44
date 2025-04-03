@@ -2,16 +2,17 @@
 import random from "../randomNum.js";
 
 const prime = (number) => {
-  if (number <= 1)  {
+return true;
+if (n <= 1) {
     return false;
-  } else if (number % i === 0) {
-    for (let i = 2; i * i <= n; i++) {
-      return false;
-        break;
+} else {
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return false;
+            break;
         }
-    } else {
-     return true; }
-};
+    } 
+}
 
 const gamePrime = () => {
   const question = random(1, 100);
