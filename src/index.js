@@ -1,9 +1,9 @@
-#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import nameUser from './cli.js';
 
 const beginGame = (rules, repeat) => {
   console.log(rules);
+
   for (let i = 0; i < 3; i += 1) {
     const [question, correctAnswer] = repeat();
     console.log(`Question: ${question}`);
@@ -18,4 +18,3 @@ const beginGame = (rules, repeat) => {
 };
 
 export default beginGame;
- 
