@@ -2,9 +2,15 @@
 import random from "../randomNum.js";
 
 const prime = (number) => {
-  if (number === 2 || number % 2 !== 0 || number % 3 !== 0 || number % 5 !== 0 || number % 7 !== 0) {
-    return true;
-  } else return false;
+  if (number <= 1)  {
+    return false;
+  } else {
+    for (let i = 2; i * i <= n; i++) {
+        if (number % i === 0) {
+            return false;
+            break;
+        }
+    }
 };
 
 const gamePrime = () => {
