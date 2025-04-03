@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import random from "../randomNum.js";
 
  const gcd = (a, b) => {
