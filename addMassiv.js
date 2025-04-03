@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const progres = (start, step) => {
   const masProg = [];
 
