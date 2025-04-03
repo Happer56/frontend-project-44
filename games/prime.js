@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import random from "../randomNum.js";
+import random from '../randomNum.js';
 
 const prime = (number) => {
   if (number <= 1) {
@@ -7,7 +7,7 @@ const prime = (number) => {
   }
   for (let i = 2; i <= number / 2; i += 1) {
     if (number % i === 0) {
-        return false;
+      return false;
     }
   }
   return true;
@@ -15,7 +15,7 @@ const prime = (number) => {
 
 const gamePrime = () => {
   const question = random(1, 100);
-  const correctAnswer = prime(question) ? "yes" : "no";
+  const correctAnswer = prime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
