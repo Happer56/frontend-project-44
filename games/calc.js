@@ -8,9 +8,9 @@ const calc = (num1, oper, num2) => {
       return num1 + num2;
     case '-':
       return num1 - num2;
-    default: result = 'No operator';
+    default: break;
   } 
-  return result;
+  return false;
 };
 
 const gameCalc = () => {
