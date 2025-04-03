@@ -8,8 +8,8 @@ import random from "../randomNum.js";
  };
 
 const gameGcd = () => {
-  const num1 = random(1, 100);
-  const num2 = random(1, 100);
+  const number1 = random(1, 100);
+  const number2 = random(1, 100);
   const question = `${number1} ${number2}`;
   const correctAnswer = String(gcd(number1, number2));
   return [question, correctAnswer];
