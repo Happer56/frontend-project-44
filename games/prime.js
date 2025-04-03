@@ -4,13 +4,13 @@ import random from "../randomNum.js";
 const prime = (number) => {
   if (number <= 1)  {
     return false;
-  } else {
+  } else if (number % i === 0) {
     for (let i = 2; i * i <= n; i++) {
-        if (number % i === 0) {
-            return false;
-            break;
+      return false;
+        break;
         }
-    }
+    } else {
+     return true; }
 };
 
 const gamePrime = () => {
