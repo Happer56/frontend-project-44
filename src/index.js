@@ -1,7 +1,6 @@
-#!/usr/bin/env node  
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import nameUser from './cli.js';
-
 
 const beginGame = (rules, repeat) => {
   console.log(rules);
@@ -18,4 +17,5 @@ const beginGame = (rules, repeat) => {
   console.log(`Congratulations, ${nameUser}!`);
 };
 
-export default beginGame; 
+export default beginGame;
+ 
