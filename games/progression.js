@@ -11,7 +11,7 @@ const gameProgres = () => {
   const element = random(0, 9);
   const correctAnswer = String(array[element]);
   array.splice(element, 1, replacement);
-  const question = array;
+  const question = array.join(' ');
 
   return [question, correctAnswer];
 };
