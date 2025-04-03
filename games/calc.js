@@ -9,7 +9,7 @@ const calc = (num1, oper, num2) => {
     case '-':
       return num1 - num2;
     default: break;
-  } 
+  }
   return false;
 };
 
