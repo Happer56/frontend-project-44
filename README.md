@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/84e7e5cde54c6011121c/maintainability)](https://codeclimate.com/github/Happer56/frontend-project-44/maintainability)
 
 --- 
-# <p style="text-align: center;"> Игры разума</p>
+# <center> Игры разума<center>
 
 ### Данный проект содержит в себе 5 мини игр:
 
