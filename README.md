@@ -32,18 +32,14 @@
 
 Ниже представлены видео-обзор игр, с различными исходами:
 
-demo all game 
-<video width="320" height="240" controls>
-  <source src="[video.mov](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm)" type="video/mp4">
-</video>
-![](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm)
+#### demo all game - https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm
 
-demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx
+#### demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx
 
-demo calc game - https://asciinema.org/a/dUoKaHZf825BVXGjU1fCOp6BV
+#### demo calc game - https://asciinema.org/a/dUoKaHZf825BVXGjU1fCOp6BV
 
-demo gcd game - https://asciinema.org/a/R3rNRZV2DAcjwpwcYs7xhjH2I
+#### demo gcd game - https://asciinema.org/a/R3rNRZV2DAcjwpwcYs7xhjH2I
 
-demo progression game - https://asciinema.org/a/ZDfVrsO7pXAg2qcfUVb7xS09h
+#### demo progression game - https://asciinema.org/a/ZDfVrsO7pXAg2qcfUVb7xS09h
 
-demo prime game - https://asciinema.org/a/uhO3iRLlclOJy1VkRIr0YunYY
+#### demo prime game - https://asciinema.org/a/uhO3iRLlclOJy1VkRIr0YunYY
