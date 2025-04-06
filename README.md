@@ -32,7 +32,8 @@
 
 Ниже представлены видео-обзор игр, с различными исходами:
 
-#### demo all game - https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm [Link][(http://a.com](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm))
+#### demo all game - https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm 
+[Link][(http://a.com](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm))
 
 #### demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx
 
