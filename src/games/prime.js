@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import random from '../randomNum.js';
+import random from '../lib/randomNum.js';
 
-const prime = (number) => {
+const isItPrime = (number) => {
   if (number <= 1) {
     return false;
   }
@@ -13,10 +13,10 @@ const prime = (number) => {
   return true;
 };
 
-const gamePrime = () => {
+const startGamePrime = () => {
   const question = random(1, 100);
-  const correctAnswer = prime(question) ? 'yes' : 'no';
+  const correctAnswer = isItPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-export default gamePrime;
+export default startGamePrime;

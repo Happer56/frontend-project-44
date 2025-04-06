@@ -1,4 +1,4 @@
-import random from '../randomNum.js';
+import random from '../lib/randomNum.js';
 
 const calc = (num1, oper, num2) => {
   switch (oper) {
@@ -8,12 +8,12 @@ const calc = (num1, oper, num2) => {
       return num1 + num2;
     case '-':
       return num1 - num2;
-    default: break;
+    default: 
+    return null;
   }
-  return false;
 };
 
-const gameCalc = () => {
+const startGameCalc = () => {
   const numb1 = random(1, 100);
   const numb2 = random(1, 100);
   const operator = ['+', '-', '*'];
@@ -23,4 +23,4 @@ const gameCalc = () => {
   return [question, correctAnswer];
 };
 
-export default gameCalc;
+export default startGameCalc;
