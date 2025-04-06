@@ -33,6 +33,9 @@
 Ниже представлены видео-обзор игр, с различными исходами:
 
 demo all game 
+<video width="320" height="240" controls>
+  <source src="[video.mov](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm)" type="video/mp4">
+</video>
 ![](https://asciinema.org/a/wzUurNp7f0Oa6HAlJVhkS6Ztm)
 
 demo even game - https://asciinema.org/a/oYQRtfv8OqRtvZdHzIxD8nfTx
